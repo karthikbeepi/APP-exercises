@@ -8,27 +8,11 @@ public class Demo {
 		LaptopView obv = new LaptopView();
 		
 		ob.addObserver(obv);
-		
 		ob.start();
 		ob.type();
 		try
 		{
 			ob.game();
-		}
-		catch (LaptopCrashException e)
-		{
-			System.err.println(e.getMessage());
-		}
-		catch (Exception e)
-		{
-			System.err.println("Simply");
-		}
-		finally 
-		{
-			ob.switchOff();
-		}
-		ob.start();
-		try {
 			ob.browseChrome();
 		}
 		catch (LaptopCrashException e)

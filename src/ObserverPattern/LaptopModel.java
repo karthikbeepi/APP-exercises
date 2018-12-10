@@ -38,21 +38,17 @@ public class LaptopModel extends Observable{
 	
 	public void game() throws LaptopCrashException
 	{
-		processorSpeed += 10;
+		processorSpeed += new Random().nextInt(15);
 		stat = stat.OverClocked;
 		stat = stat.Gaming;
 		checkProcessor();
-		setChanged();
-		notifyObservers(this);
 	}
 	
 	public void browseChrome() throws LaptopCrashException
 	{
 		stat = stat.Browsing;
-		processorSpeed += new Random().nextInt(15);
+		processorSpeed += new Random().nextInt(12);
 		checkProcessor();
-		setChanged();
-		notifyObservers(this);
 	}
 	
 	private void checkProcessor() throws LaptopCrashException {

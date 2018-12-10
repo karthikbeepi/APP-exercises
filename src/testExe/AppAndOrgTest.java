@@ -1,4 +1,4 @@
-package test;
+package testExe;
 import exe.AppAndOrg;
 
 import static org.junit.Assert.*;
