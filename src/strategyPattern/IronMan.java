@@ -1,6 +1,6 @@
 package strategyPattern;
 
-public class IronMan implements hero{
+public class IronMan implements Hero{
 
 	@Override
 	public void updateHero() {

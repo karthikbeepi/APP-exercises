@@ -1,6 +1,6 @@
 package strategyPattern;
 
-public class Hulk implements hero{
+public class Hulk implements Hero{
 
 	@Override
 	public void updateHero() {

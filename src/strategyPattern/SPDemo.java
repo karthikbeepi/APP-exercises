@@ -7,11 +7,11 @@ public class SPDemo {
 		SuperHero h = new SuperHero();
 		
 		h.setHero(new Hulk());
-		h.executeUpdate();
+		h.showPower();
 		h.setHero(new IronMan());
-		h.executeUpdate();
+		h.showPower();
 		h.setHero(new Thor());
-		h.executeUpdate();
+		h.showPower();
 		
 	}
 

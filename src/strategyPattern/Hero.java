@@ -1,6 +1,6 @@
 package strategyPattern;
 
-public interface hero {
+public interface Hero {
 
 	public void updateHero();
 	

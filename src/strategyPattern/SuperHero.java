@@ -2,14 +2,14 @@ package strategyPattern;
 
 public class SuperHero {
 
-	public hero h;
+	public Hero h;
 	
-	public void executeUpdate()
+	public void showPower()
 	{
 		h.updateHero();
 	}
 
-	public void setHero(hero h) {
+	public void setHero(Hero h) {
 		this.h = h;
 	}
 	
