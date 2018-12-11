@@ -6,12 +6,11 @@ public abstract class LaptopBuilder {
 	public abstract void buildComponents();
 	public abstract void installOS();
 	public abstract void assignPrice();
-	public builderPattern.Laptop createLaptop()
+	public Laptop createLaptop()
 	{
 		buildComponents();
 		installOS();
 		assignPrice();
 		return ob;
 	}
-
 }

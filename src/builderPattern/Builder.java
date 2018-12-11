@@ -11,6 +11,6 @@ public class Builder {
 		b.buildComponents();
 		b.installOS();
 		b.assignPrice();
-		return b.getLaptop();
+		return b.createLaptop();
 	}
 }
