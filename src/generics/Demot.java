@@ -1,13 +1,15 @@
 package generics;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Demot {
 
 	public static void main(String args[])
 	{
 		QK<Integer> ob1 = new QK<>();
 		QK<Double> ob2 = new QK<>();
-		QK<String> ob3 = new QK<>();
-		
+		QK<String> ob3 = new QK<String>();
 		TreeK<Integer> ob4 = new TreeK<Integer>();
 		
 		ob1.add(5);

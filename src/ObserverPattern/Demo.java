@@ -23,6 +23,8 @@ public class Demo {
 		{
 			ob.switchOff();
 		}
+		
+		System.out.println("Reached!");
 	}
 
 }
